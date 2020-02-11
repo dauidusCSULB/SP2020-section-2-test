@@ -10,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allows admins to easily set instructional context for metaboxes and more on pages, posts or custom post types.
 
+#Alex and Carlos were here!
+
 == Description ==
 
 Add Post Type Instructions allows admins to easily set instructional context for metaboxes and more on pages, posts or custom post types.  Currently it supports adding instructional context in the following areas on the add/edit screen:

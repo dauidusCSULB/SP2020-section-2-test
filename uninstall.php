@@ -20,9 +20,7 @@ require_once( plugin_dir_path( __FILE__ ) . 'public/class-add-post-type-instruct
 
 $plugin = Add_Post_Type_Instructions::get_instance();
 $post_types = $plugin->supported_post_types();
-foreach ( $post_types as $pt ) {
-	delete_option( $plugin->get_plugin_slug() . '_' . $pt );
-}
+
 
 	/**
 	 * Change tags metabox content

@@ -5,7 +5,7 @@
  * For A Better UX
  *
  * @package   Add_Post_Type_Instructions
- * @author    Dave Winter
+ * @author    Dave Winter, Jesus, Ghandi, Buddha
  * @license   GPL-2.0+
  * @link      https://dauid.us
  * @copyright 2014-2018 dauid.us

@@ -51,26 +51,7 @@ add_action( 'plugins_loaded', array( 'Add_Post_Type_Instructions', 'get_instance
  */
 do_action( 'APTI_loaded', plugin_dir_path( __FILE__ ) );
 
-/**
- * Load translations
- */
-function apti_load_textdomain() {
-	load_plugin_textdomain( 'apti', false, dirname(plugin_basename(__FILE__)) . '/languages/' );
-}
-add_action( 'init', 'apti_load_textdomain', 1 );
 
-/*----------------------------------------------------------------------------*
- * Dashboard and Administrative Functionality
- *----------------------------------------------------------------------------*/
 
-/*
- *
- * The code below is intended to to give the lightest footprint possible.
- */
-if ( is_admin() ) {
 
-	require_once( plugin_dir_path( __FILE__ ) . 'admin/class-add-post-type-instructions-admin.php' );
-	add_action( 'plugins_loaded', array( 'Add_Post_Type_Instructions_Admin', 'get_instance' ) );
-
-}
 

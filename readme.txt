@@ -19,7 +19,7 @@ Add Post Type Instructions allows admins to easily set instructional context for
 * default content within the WYSIWYG editor
 
 and within the following metaboxes:
-** **
+** ** HELLELEOOELEOELELEEOELLEOE
 * publish
 * author
 * featured image

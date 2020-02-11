@@ -1,3 +1,4 @@
+Dave is cool!!!!!!
 === Add Post Type Instructions ===
 Contributors: dauidus
 Author URI: http://dauid.us

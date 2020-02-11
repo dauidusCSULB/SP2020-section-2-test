@@ -318,3 +318,6 @@ class add_post_type_instructions {
 	}
 
 }
+/**
+*sup
+*/
